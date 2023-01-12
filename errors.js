@@ -2,19 +2,24 @@
 
 const snackSelection = 'Pretzels';
 
-if (snackSelection = 'Pretzels') {
+if (snackSelection == 'Pretzels') {
   console.log("That'll be $1, please!");
 }
 
 
 // Once the code above this line is fixed you'll be able to see the error from the code below
 
-function first () {
+function frst () {
   second();
 }
 
 function second () {
   third();
+}
+
+function third()
+{
+  console.log("Now I'm a function");
 }
 
 first();
